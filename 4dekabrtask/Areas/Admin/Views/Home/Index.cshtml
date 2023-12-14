@@ -1,0 +1,47 @@
+﻿@using _4dekabrtask.Models;
+@model List<Slider>
+
+@{
+    ViewData["Title"] = "Slider";
+}
+@section styles{
+    <link href="~/admin/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+}
+@section scripts{
+    <script src="~/admin/js/demo/datatables-demo.js"></script>
+
+}
+
+<div class="table-responsive">
+    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+        <thead>
+        <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Text</th>
+                <th>ImageUrl</th>
+                <th>Position</th>
+                <th clospan="2">Action</th>
+        </tr>
+        </thead>
+        <tbody>
+           @if(Model != null)
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Title</td>
+                        <td>@item.Text</td>
+                        <td><img width="200" src="@item.ImageUrl" /></td>
+                        <td>@item.Position</td>
+                        <td><a class="btn-outline-info" href="#">Update</a></td>
+                        <td><a class="btn-outline-danger" href="#">Delete</a></td>
+                        @* (@item.IsLeft == true ? "left" : item.IsLeft == false ? "right" : "middle" ) *@
+                    </tr>
+                }
+            }
+        </tbody>
+        </table>
+</div>

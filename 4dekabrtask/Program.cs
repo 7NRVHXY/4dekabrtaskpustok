@@ -1,3 +1,6 @@
+using _4dekabrtask.Context;
+using Microsoft.EntityFrameworkCore;
+
 namespace _4dekabrtask
 {
     public class Program
@@ -8,6 +11,10 @@ namespace _4dekabrtask
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<PustokDbContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration["ConnectionStrings:MSSql"]);
+            });
 
             var app = builder.Build();
 
@@ -25,7 +32,10 @@ namespace _4dekabrtask
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.MapControllerRoute(
+            name: "areas",
+            pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+          );
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

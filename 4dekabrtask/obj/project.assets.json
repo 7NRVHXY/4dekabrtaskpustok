@@ -10865,11 +10865,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Birinci\\source\\repos\\4dekabrtask\\4dekabrtask\\4dekabrtask.csproj",
+      "projectUniqueName": "C:\\Users\\Birinci\\Desktop\\pustokk\\4dekabrtask\\4dekabrtask\\4dekabrtask.csproj",
       "projectName": "4dekabrtask",
-      "projectPath": "C:\\Users\\Birinci\\source\\repos\\4dekabrtask\\4dekabrtask\\4dekabrtask.csproj",
+      "projectPath": "C:\\Users\\Birinci\\Desktop\\pustokk\\4dekabrtask\\4dekabrtask\\4dekabrtask.csproj",
       "packagesPath": "C:\\Users\\Birinci\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Birinci\\source\\repos\\4dekabrtask\\4dekabrtask\\obj\\",
+      "outputPath": "C:\\Users\\Birinci\\Desktop\\pustokk\\4dekabrtask\\4dekabrtask\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Birinci\\AppData\\Roaming\\NuGet\\NuGet.Config",

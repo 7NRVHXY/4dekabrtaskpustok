@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zku+QRgPzSSSyhAf6Xk+UGoOnl4oXMjsxchop1blH9tHy0skpp2xptojMbgK+rQQITaUAY1764Jh7PICXgQtnQ==",
+  "dgSpecHash": "6pcQ3hOHdbQnMqj1a1U/IabbshGt7zk4fnikUruzkJvLcvKP86z4iA3YwW19IzGshkBgC8AXGsSK8jCx4qF/Vg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Birinci\\source\\repos\\4dekabrtask\\4dekabrtask\\4dekabrtask.csproj",
+  "projectFilePath": "C:\\Users\\Birinci\\Desktop\\pustokk\\4dekabrtask\\4dekabrtask\\4dekabrtask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Birinci\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Birinci\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
