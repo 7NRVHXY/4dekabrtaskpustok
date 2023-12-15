@@ -1,4 +1,5 @@
 using _4dekabrtask.Context;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace _4dekabrtask
@@ -42,5 +43,6 @@ namespace _4dekabrtask
 
             app.Run();
         }
-    }
+    
+    } 
 }
